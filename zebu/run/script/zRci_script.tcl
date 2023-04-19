@@ -26,6 +26,16 @@ proc proba2hex {p} {
 #----------------------------------------
 # Section for Basic Run & all features
 #----------------------------------------
+
+# Delete the runtime_output directory
+set dir "./runtime_output"
+if {[file exists $dir] && [file isdirectory $dir]} {
+    file delete -force $dir
+    puts "The directory $dir has been deleted.\n"
+} else {
+    puts "Error: $dir does not exist or is not a directory.\n"
+}
+
 # TODO: Connect to the ZeBu emulator with zRci output directory name ​​runtime_output
 
 # TODO: Initialize the content of the ROM with the data in ../memories/rom.hex
