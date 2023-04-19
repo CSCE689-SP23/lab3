@@ -1,0 +1,16 @@
+#@ # 
+#@ # Running zRci Version Q-2020.03-SP1-4 for linux64 -- Oct 18 2022 - 00:50:38
+#@ # Date:   Tue Apr 18 21:46:47 2023
+#@ # Run by: davidkebo@csce-quinn-s1.engr.tamu.edu
+#@ 
+
+#@ # -- Evaluating file ../script/zRci_script.tcl
+
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 161  # !! Background evaluation !!
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 295  # !! Background evaluation !!
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 477  # !! Background evaluation !!
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 559  # !! Background evaluation !!
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 617  # !! Background evaluation !!
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 671  # !! Background evaluation !!
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 867  # !! Background evaluation !!
+#@ # sva_callback 0 2 {SVA: Parity error detected.} ../source/design/parity_check.sv 26 top.u_dut.u_check.sva_parity_error -1 919  # !! Background evaluation !!

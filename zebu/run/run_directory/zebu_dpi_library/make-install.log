@@ -1,0 +1,31 @@
+g++ -O -I/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include -I/home/faculty/d/davidkebo/davidkebo/csce689/labs/zebu_basic_lab_completed/zebu/zcui.work/backend_default -fPIC -fexceptions -Wall -c -o zebu_dpi_library/grp0_ccall.o /home/faculty/d/davidkebo/davidkebo/csce689/labs/zebu_basic_lab_completed/zebu/zcui.work/backend_default/grp0_ccall.cc
+In file included from /opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/libZebuCCall.hh:16:0,
+                 from /home/faculty/d/davidkebo/davidkebo/csce689/labs/zebu_basic_lab_completed/zebu/zcui.work/backend_default/grp0_ccall.cc:14:
+/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/CCallHandler.hh:119:60: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void getReturnValue (void *actual, CCallArgType argType) override;
+                                                            ^
+/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/CCallHandler.hh:121:66: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void putReturnValue (const void *actual, CCallArgType argType) override;
+                                                                  ^
+/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/CCallHandler.hh:144:14: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     int run () override;
+              ^
+/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/CCallHandler.hh:155:72: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void formatSlice (unsigned int msb, unsigned int lsb, bool issigned) override;
+                                                                        ^
+/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/CCallHandler.hh:156:42: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void formatPrefix (const char *prefix) override;
+                                          ^
+/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/CCallHandler.hh:157:37: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void formatLiteral (const char *) override;
+                                     ^
+/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/include/CCallHandler.hh:158:42: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void formatArgValue (unsigned int pos) override;
+                                          ^
+g++ -fPIC  -shared -o zebu_dpi_library/grp0_ccall.so ./zebu_dpi_library/grp0_ccall.o -L/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/lib -lZebuZEMI3
+if ( [ ! -e ./zebu_dpi_library/grp0_ccall.so ] || ( ! (cmp -s ./zebu_dpi_library/grp0_ccall.so ./zebu_dpi_library/grp0_ccall.so ) ) ); then \
+	cp ./zebu_dpi_library/grp0_ccall.so ./zebu_dpi_library/grp0_ccall.so ; \
+fi
+if ( [ ! -e ./zebu_dpi_library/grp0_ccall.h ] || ( ! ( cmp -s /home/faculty/d/davidkebo/davidkebo/csce689/labs/zebu_basic_lab_completed/zebu/zcui.work/backend_default/grp0_ccall.h ./zebu_dpi_library/grp0_ccall.h ) ) ); then \
+	cp /home/faculty/d/davidkebo/davidkebo/csce689/labs/zebu_basic_lab_completed/zebu/zcui.work/backend_default/grp0_ccall.h ./zebu_dpi_library/grp0_ccall.h ; \
+fi

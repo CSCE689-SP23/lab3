@@ -1,0 +1,54 @@
+
+                                    ZeBu (R)
+                                   zWaveform
+
+              Version Q-2020.03-SP1-4 for linux64 - Oct 18, 2022 
+
+                    Copyright (c) 2002 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+# zWaveform --work ../../zcui.work/zebu.work/ --ztdb runtime_output/dynprobes_dump.ztdb --fsdb dynprobes_dump --timescale 1ns 
+
+# start time is Tue Apr 18 21:37:34 2023
+
+
+
+
+# Build Date : Oct 18 2022 - 01:01:26
+# ---------------------------System Context--------------------------- 
+# Cpu        40 x bogomips - 4604.47 Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+#            Load: 0.09 0.37 0.88 2/462 5171
+#            Hostname: csce-quinn-s1.engr.tamu.edu   OS: Linux 3.10.0-1160.88.1.el7.x86_64
+# Memory     Total: 193183 MB Free: 185995 MB
+#            Total Free including cache: 190333 MB
+#            Swap cache: 0 MB Cached space: 4338 MB
+#            Swap space: 4095 MB Free Swap space: 4095 MB
+#            VmSize: 278 MB VmPeak: 278 MB
+# Disk Space Total: 250 GB Available: 244 GB Used: 6 GB
+#            Free inodes: 524257634
+# Stack                                Soft Limit           Hard Limit  
+#            Max stack size            8388608              unlimited            bytes     
+# -------------------------------------------------------------------- 
+
+
+#   step WAVEFORM : zSimzilla --zebu-work '../../zcui.work/zebu.work/' --ztdb 'runtime_output/dynprobes_dump.ztdb' --fsdb 'dynprobes_dump' --timescale '1ns' --algo 2 --enable-xn-resolution --mudb --log 'zWaveform.simzilla.log'
+
+#   exec summary :    0 warnings,    0 syntax errors,    0 fatal errors,    0 internal errors
+#   exec summary : wall clock 0m1s, user 0m0.48s, sys 0m0.62s
+#   exec summary : Total memory: 351016 kB - RSS memory: 170204 kB - Data memory: 166568 kB
+#   exec summary : Successful execution
+
+# end time is Tue Apr 18 21:37:35 2023

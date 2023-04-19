@@ -1,0 +1,182 @@
+
+                                    ZeBu (R)
+                                   zSimzilla
+
+              Version Q-2020.03-SP1-4 for linux64 - Oct 18, 2022 
+
+                    Copyright (c) 2002 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+# zSimzilla --zebu-work ../../zcui.work/zebu.work/ --ztdb runtime_output/dynprobes_dump.ztdb --fsdb dynprobes_dump --timescale 1ns --algo 2 --enable-xn-resolution --mudb --log zWaveform.simzilla.log 
+
+# start time is Tue Apr 18 21:37:34 2023
+
+
+
+
+# Build Date : Oct 18 2022 - 01:01:26
+# ---------------------------System Context--------------------------- 
+# Cpu        40 x bogomips - 4604.47 Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+#            Load: 0.09 0.37 0.88 2/463 5174
+#            Hostname: csce-quinn-s1.engr.tamu.edu   OS: Linux 3.10.0-1160.88.1.el7.x86_64
+# Memory     Total: 193183 MB Free: 185808 MB
+#            Total Free including cache: 190146 MB
+#            Swap cache: 0 MB Cached space: 4338 MB
+#            Swap space: 4095 MB Free Swap space: 4095 MB
+#            VmSize: 389 MB VmPeak: 389 MB
+# Disk Space Total: 250 GB Available: 244 GB Used: 6 GB
+#            Free inodes: 524257634
+# Stack                                Soft Limit           Hard Limit  
+#            Max stack size            8388608              unlimited            bytes     
+# -------------------------------------------------------------------- 
+
+
+#   step SIMZILLA : --threads: using 10 threads (maximum is 40).
+#   step Update options by env : Starting
+#   step Update options by env : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185807 m      vm:453 m       vm:+0 m      um:210 m       um:+0 m
+### warning in SMZ [SMZ0109] : --fsdb/o (FSDB) will be deprecated in a coming release. Please use --zwd (ZWD format) instead.
+### warning in SIMZILLA [PRL0001W] : SMZ0079 - Disable '--pgb-enable-distributed-header-generation' in simulation
+#   step EDIF LOADER : reading EDIF file '/opt/coe/synopsys/zebu/Q-2020.03-SP1-4/etc/libXilinx.edif.gz'
+#   step 	load dumpType : Starting
+#   step 	load dumpType : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185793 m      vm:466 m       vm:+0 m      um:224 m       um:+0 m
+#   step SMZ : cannot load dumpType; use default 'zwd+r'
+#   step === Load RTX : Starting
+#   step SIMZILLA : Loading NameDb (RHINODB) from '/opt/coe/synopsys/vcs/Q-2020.03-SP2-12/linux64/lib/libNameDB.so'...
+#   step === Load RTX : Done in     elapsed:0.6 s    user:0.1 s      system:0 s      %cpu:18.87       load:0.09       fm:185759 m      vm:515 m      vm:+49 m      um:261 m      um:+36 m
+#   step 	load pgbData : Starting
+#   step 	load pgbData : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185759 m      vm:515 m       vm:+0 m      um:261 m       um:+0 m
+#   step SMZ : loaded #bins: 0
+#   step === Check ZTDB type : Starting
+#   step === Check ZTDB type : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185759 m      vm:515 m       vm:+0 m      um:261 m       um:+0 m
+#   step SMZ : Disable '--dumper-skip-pos0' internally when the dumper is not ZWD+R dumper
+#   step === beginDump : Starting
+#   step === beginDump : Done in    elapsed:0.28 s    user:0.1 s    system:0.3 s      %cpu:14.41       load:0.09       fm:185737 m      vm:575 m      vm:+60 m      um:285 m      um:+23 m
+#   step SMZ : 
+#   step === Load graph : Starting
+#   step 	load graph : Starting
+#   step 	load graph : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185737 m      vm:575 m       vm:+0 m      um:286 m       um:+0 m
+#   step 	load cid2Nnames : Starting
+#   step 	load cid2Nnames : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185737 m      vm:575 m       vm:+0 m      um:286 m       um:+0 m
+#   step 	load equi2cid : Starting
+#   step 	load equi2cid : Done in     elapsed:0.1 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185737 m      vm:575 m       vm:+0 m      um:286 m       um:+0 m
+#   step 	deserialize cells : Starting
+#   step SMZ : loading 1550 cell(s) from keyed file using 10 partition(s) w. 10 thread(s) (keyed file block loader)
+#   step 	deserialize cells : Done in       elapsed:0 s    user:0.1 s      system:0 s     %cpu:235.29       load:0.09       fm:185729 m      vm:607 m      vm:+32 m      um:294 m       um:+8 m
+#   step SMZ : IsLevelizedForSequential= 0
+#   step === Load graph : Done in     elapsed:0.1 s    user:0.1 s      system:0 s      %cpu:64.52       load:0.09       fm:185729 m      vm:607 m      vm:+32 m      um:294 m       um:+8 m
+#   step === Create ZTDB feeder : Starting
+#   step SMZ : setting feeder on ztdb runtime_output/dynprobes_dump.ztdb
+#   step === Create ZTDB feeder : Done in     elapsed:0.1 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185729 m      vm:607 m       vm:+0 m      um:294 m       um:+0 m
+#   step === Create 2-STEP FSDB dumper : Starting
+#   step === Create 2-STEP FSDB dumper : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185729 m      vm:607 m       vm:+0 m      um:294 m       um:+0 m
+#   step === Create Simul : Starting
+#   step === Create Simul : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185729 m      vm:607 m       vm:+0 m      um:294 m       um:+0 m
+#   step === annotate coords : Starting
+#   step SMZ : #coord (with collision): 541 (0)
+#   step SMZ : #aliases after collision resolution: 0
+#   step SMZ : #aliases at level 0: 0
+#   step === annotate coords : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185729 m      vm:863 m     vm:+256 m      um:294 m       um:+0 m
+#   step SMZ : #startpoints: 542
+#   step SMZ : #endpoints  : 655
+#   step SMZ : #coords     : 541
+#   step SMZ : #watched    : 361
+#   step SMZ : #watched (by cid2Pocs): 0
+#   step SMZ : #EquiID         : 1138
+#   step SMZ : #HierWires      : 1138
+#   step SMZ : #cells          : 1550
+#   step SMZ : #macro cells    : 0
+#   step SMZ : linkMacros mode : 2
+#   step SMZ : #buses          : 0
+#   step SMZ : #levels: 58
+#   step SMZ : list level/# cells: [0/719 1/98 2/44 3/47 4/33 5/32 6/21 7/16 8/21 9/25 10/21 11/13 12/11 13/17 14/16 15/16 16/8 17/8 18/16 19/16 20/16 21/8 22/8 23/16 24/16 25/16 26/8 27/8 28/16 29/16 30/16 31/8 32/8 33/16 34/16 35/16 36/8 37/8 38/8 39/8 40/8 41/4 42/4 43/8 44/8 45/8 46/4 47/4 48/8 49/8 50/8 51/4 52/4 53/8 54/8 55/8 56/4 57/4 ]
+#   step SMZ : avg. #cells/level: 26.7241
+#   step SMZ : list level/#mcells: []
+#   step SMZ : cell distribution (exclusive):
+#   step SMZ : #cells (#with coord), avg.#inputs  READ : 55 (54), 0
+#   step SMZ : #cells (#with coord), avg.#inputs  CST  : 232 (0), 0
+#   step SMZ : #cells (#with coord), avg.#inputs  XOR  : 147 (1), 2.08163
+#   step SMZ : #cells (#with coord), avg.#inputs  ISOP : 664 (54), 2.00151, #AND/OR=395
+#   step SMZ : #cells (#with coord), avg.#inputs  LUT  : 20 (0), 5.6
+#   step SMZ : #cells (#with coord), avg.#inputs  LATCH: 1 (1), 2
+#   step SMZ : #cells (#with coord), avg.#inputs  FF   : 431 (431), 2.47796
+#   step SMZ : #cells (#with coord), avg.#inputs  LB   : 0 (0), 0
+#   step SMZ : #cells (#with coord), avg.#inputs  PORT : 0 (0), 0
+#   step SMZ : #cells (#with coord), avg.#inputs  EDGE_DETECTOR: 0 (0), 0
+#   step SMZ : #cells (#with coord), avg.#inputs  ONE_POS_SHIFTER: 0 (0), 0
+#   step SMZ : #LUT1 w/o coord / avg.% of 1's: 0 / 0
+#   step SMZ : #LUT2 w/o coord / avg.% of 1's: 0 / 0
+#   step SMZ : #LUT3 w/o coord / avg.% of 1's: 0 / 0
+#   step SMZ : #LUT4 w/o coord / avg.% of 1's: 0 / 0
+#   step SMZ : #LUT5 w/o coord / avg.% of 1's: 8 / 0.5
+#   step SMZ : #LUT6 w/o coord / avg.% of 1's: 12 / 0.348958
+#   step SMZ : SCC size/#LBs distribution: []
+#   step SMZ : #PrimarySeq/#PI (0/109) = 0%
+#   step SMZ : #PrimarySeq/#Seqs (0/432) = 0%
+#   step === Simul : Starting
+#   step SMZ_SIMUL : Starting
+#   step SMZ : Simulator opt: verbose: 1; debug: 0; #threads: 10; algo:2; SPnoCoord:0; seq: 0; shard: 0; selfCheck: 0; selfCheckMaxError: 100; selfCheckReport: ; maxPass: -1; begin_cycle: 0; end_cycle: 2020; slice_id: 0; wavelength: 128; doXNresolutions: 1; dumperType: 2; otfSave: 1; concurrentEvalAndDump: 0; max_scc_iterations: -1; enableValuePoolContainer: 0; start_point_ratio: 0.0133333; shuffle_cell_into_rows: 1; shuffle_by_bucket_size: 50; dumper_skip_pos0: 0; dumper_write_force: 0; dumper_write_internal_signal: 0; a
+#   step SMZ : nnotate_scc_cell: 0; scc_extend_iteration_to_freeze_lbs: 0
+#   step SMZ : 
+#   step SMZ : cycle starts at in [begin..end]: 0 in [0..2020]
+#   step Write headers of parallel FSDB writers : Starting
+#   step Write headers of parallel FSDB writers : Done in     elapsed:0.6 s    user:0.4 s    system:0.7 s     %cpu:171.88       load:0.09       fm:185556 m     vm:1046 m     vm:+114 m      um:472 m     um:+115 m
+#   step SMZ : max CID in graphView = 1549 (#cells= 1550)
+#   step === Build CellID2Fanouts map on Graph View : Starting
+#   step === Build CellID2Fanouts map on Graph View : Done in       elapsed:0 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185556 m     vm:1046 m       vm:+0 m      um:472 m       um:+0 m
+#   step SMZ : AFTER CST init: 
+#   step SMZ : #reads                     : 0
+#   step SMZ : #seq                       : 0
+#   step SMZ : #constants                 : 232
+#   step SMZ : #evaluated cells           : 0
+#   step SMZ : #loop breakers             : 0
+#   step SMZ : #detected loop breakers    : 0
+#   step SMZ : #hits            (variable): 0
+#   step SMZ : #overlaps done   (variable): 0
+#   step SMZ : #overlaps sleep  (variable): 0
+#   step SMZ : Feeder skips #cycle= 0 elapsed time= 0.00
+#   step SMZ : pass 0, cycle(pos=127) 127, #dumpID 361, #events 2211, +#events 2211
+#   step SMZ : pass 0   fu #e 2211 %( 2.80 22.48) #f 0 #p 0.000 %i 100.00 [SP 0.00 E 0.00 D1 0.00 D1F 0.00 D2 0.00 t 0.00 += 0.00 0.00 0.00 0.00 0.00 0.00 ] elp 0.41
+#   step SMZ : pass 0, cycle(pos=99) 2019, #dumpID 361, #events 32738, +#events 0
+#   step SMZ : completed 16 pass (2048 computation cycles), #watched signals/activity: 361 / 4.428075%
+#   step SMZ : dump %events/row: min= 0.88%/1 max= 26.84%/6
+#   step SMZ : otf-save #pass 15, %items/#items/pass: min=37.95%/137/15 max=44.04%/159/6
+#   step SMZ : #p/pass for normalized number of force entries per pass: max= 0.000/-1
+#   step SMZ : elapsed time: sp= 0.01 eval= 0.00, dump header= 0.06 filter= 0.00 filter force= 0.00 write= 0.00
+#   step Waveform generation : progress 100, elapsedTime 0(0s), loadavg 0, freeMem 96, peakMem 1059
+#   step SMZ : FEED  (paused) 	elapsed:0.59	user:0.06	sys:0.04
+#   step SMZ : DUMP  (paused) 	elapsed:1	user:0.1	sys:0.17
+#   step SMZ : EVAL  (paused) 	elapsed:0.01	user:0.01	sys:0
+#   step SMZ : elapsed: 1.02
+#   step SMZ : #pass  : 16
+#   step SMZ : #cycles: 2048
+#   step SMZ : #pass all/lazy: 16/0 100%/0%
+#   step SMZ : #startPointChanges total: actual=2985 out of full=8672
+#   step SMZ : #startPointChanges per pass: min=142 max=541 absMax=542 avg=186 median=166
+#   step SMZ : %startPointChanges per pass: min=26.1993% max=99.8155% avg=34.4211% median=30.6273%
+#   step SMZ : evals is 0, nothing to report
+#   step SMZ : Throughput (#cells * #cycles)/s: 3.11216e+06
+#   step SMZ_SIMUL : Done in       elapsed:1 s   user:0.15 s   system:0.18 s      %cpu:32.58       load:0.09       fm:185546 m     vm:1059 m     vm:+196 m      um:480 m     um:+186 m
+#   step === Simul : Done in       elapsed:1 s   user:0.15 s   system:0.18 s      %cpu:32.57       load:0.09       fm:185546 m     vm:1059 m     vm:+196 m      um:480 m     um:+186 m
+#   step === endDump : Starting
+#   step === endDump : Done in     elapsed:0.1 s      user:0 s      system:0 s       %cpu:0.00       load:0.09       fm:185546 m     vm:1059 m       vm:+0 m      um:480 m       um:+0 m
+#   step SMZ : END OF SIMZILLA JOB
+
+#   exec summary :    2 warnings,    0 syntax errors,    0 fatal errors,    0 internal errors
+#   exec summary : wall clock 0m1s, user 0m0.337s, sys 0m0.296s
+#   exec summary : Total memory: 1072896 kB - RSS memory: 484972 kB - Data memory: 801440 kB
+#   exec summary : Successful execution
+
+# end time is Tue Apr 18 21:37:35 2023

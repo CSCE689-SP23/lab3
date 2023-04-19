@@ -1,0 +1,1 @@
+rm -f ./zebu_dpi_library/grp0_ccall.o ./zebu_dpi_library/grp0_ccall.so

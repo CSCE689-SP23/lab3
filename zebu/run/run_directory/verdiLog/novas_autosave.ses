@@ -1,0 +1,93 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_Q-2020.03-SP2-9
+[ICSA]
+zebu_work = /slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/zebu/zcui.work/backend_default
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/zebu/run/run_directory/fwc_dump.vf
+syncTime = 0
+viewport = 0 0 1476 611 0 0 219 1474
+activeNode = "top"
+activeScope = "top"
+activeFile = "../source/stb/top.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 7
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 1
+Scope1 = "top"
+multipleSelection = 1 7 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "/slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/zebu/zcui.work/backend_default/../vcs_splitter//simv.daidir" "-dbdir" "/slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/zebu/zcui.work/back\
+end_default/../vcs_splitter//simv.daidir" 
+invokeDir = /slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/zebu/run/run_directory
+[hb.sourceTab.1]
+scope = top
+File = /slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/source/stb/top.sv
+Line = 8
+[nMemoryManager]
+WaveformFile = /slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/zebu/run/run_directory/fwc_dump.vf
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1476 245 100 65
+primaryWindow = TRUE
+SessionFile = /slowfs/vgondemand01/eveeval8/dipal_fifolab/zebu_training_2022/ZeBu_BasicLabs/zebu/run/run_directory/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
